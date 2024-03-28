@@ -1,0 +1,20 @@
+To Do List
+-create virtual env
+-install and setup
+-init database, super user, test run
+-create core app for base pages
+-create app for user profiles
+-create app for products
+  -add category model
+-list out new products on the front page
+-product detail view
+-category view
+-simple search
+-vendor detail page
+-authentication - sign up, login, logout
+-add product to the cart
+-view cart
+-checkout
+-implement payment gateway
+-admin pages for the vendors
+-deploy project
