@@ -12,6 +12,8 @@ def vendor_detail(request, pk):
     'user': user
     })
 
+def myaccount(request):
+  return render(request, 'userprofile/myaccount.html')
 def signup(request):
   if request.method == 'POST':
     form = UserCreationForm(request.POST)
