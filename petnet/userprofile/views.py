@@ -12,9 +12,11 @@ def vendor_detail(request, pk):
     'user': user
     })
 
+@login_required
 def mystore(request):
   return render(request, 'userprofile/mystore.html')
 
+@login_required
 def myaccount(request):
   return render(request, 'userprofile/myaccount.html')
 
